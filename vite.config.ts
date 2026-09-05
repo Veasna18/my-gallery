@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.VERCEL ? '/' : '/my-gallery/',
+  base: './', // ដើរបានទាំង Vercel និង GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {
